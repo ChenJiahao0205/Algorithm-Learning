@@ -22,4 +22,11 @@ public class ImmutableNumArray_LeetCode_303 {
         // prefixSum中对应right位的和，应该是right + 1
         return prefixSum[right + 1] - prefixSum[left];
     }
+
+    public static void main(String[] args) {
+        int[] nums = {-2, 0, 3, -5, 2, -1};
+        int sum = new ImmutableNumArray_LeetCode_303(nums)
+                .sumRange(1, 5);
+        System.out.println(sum);
+    }
 }
