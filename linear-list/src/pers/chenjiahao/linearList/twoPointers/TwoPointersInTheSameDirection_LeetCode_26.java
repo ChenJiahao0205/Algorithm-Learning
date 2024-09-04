@@ -9,7 +9,7 @@ import java.util.Map;
  * @author ChenJiahao(五条)
  * @date 2024/09/03 20:55:41
  */
-public class TwoPointersInTheSameDirection {
+public class TwoPointersInTheSameDirection_LeetCode_26 {
     public static void main(String[] args) {
         System.out.println(removeDuplicates(new int[]{1,1,2}));
         System.out.println(removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
